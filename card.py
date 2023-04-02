@@ -3,7 +3,7 @@
 # For example, here's several helpful packages to load in 
 
 # Imported Libraries
-pip install tensorflow
+pip3 install tensorflow
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import tensorflow as tf
