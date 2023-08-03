@@ -30,7 +30,7 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title='Credit Card Fraud Detection App')
 
 # Load data
-@st.cache(allow_output_mutation=True)
+@st.cache_data(allow_output_mutation=True)
 def load_data():
     data = pd.read_csv('creditcard.csv')
     return data
